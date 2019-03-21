@@ -1,0 +1,2 @@
+subnet_id = "/subscriptions/2d31be49-d959-4415-bb65-8aec2c90ba62/resourceGroups/pcms-contoso-non-prod-core/providers/Microsoft.Network/virtualNetworks/pcms-contoso-non-prod-vnet/subnets/pcms-contoso-non-prod-dev2"
+pip = true

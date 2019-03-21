@@ -1,0 +1,45 @@
+{
+    "compute": {
+        "location": "westeurope",
+        "name": "pcms-contoso-non-prod-dev2-jenkins",
+        "offer": "UbuntuServer",
+        "osType": "Linux",
+        "placementGroupId": "",
+        "platformFaultDomain": "0",
+        "platformUpdateDomain": "0",
+        "publisher": "Canonical",
+        "resourceGroupName": "pcms-contoso-non-prod-dev2",
+        "sku": "16.04-LTS",
+        "subscriptionId": "2d31be49-d959-4415-bb65-8aec2c90ba62",
+        "tags": "deployed_by:Terraform;env:dev2;project:pcms-contoso-non-prod",
+        "version": "16.04.201902120",
+        "vmId": "d7e886fa-7d8c-42d8-a5ed-8b1ea35255d1",
+        "vmScaleSetName": "",
+        "vmSize": "Standard_B1s",
+        "zone": ""
+    },
+    "network": {
+        "interface": [
+            {
+                "ipv4": {
+                    "ipAddress": [
+                        {
+                            "privateIpAddress": "10.0.0.134",
+                            "publicIpAddress": "51.136.48.148"
+                        }
+                    ],
+                    "subnet": [
+                        {
+                            "address": "10.0.0.128",
+                            "prefix": "25"
+                        }
+                    ]
+                },
+                "ipv6": {
+                    "ipAddress": []
+                },
+                "macAddress": "000D3A28F901"
+            }
+        ]
+    }
+}
